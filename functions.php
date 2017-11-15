@@ -45,6 +45,16 @@ function yellow17_widgets_init() {
     'after_title'   => '</h5>',
   ) );
 
+  register_sidebar( array(
+    'name'          => 'Rodape Home',
+    'id'            => 'rodape_home',
+    'description'   => __( 'Appears in the footer section of the site.'),
+    'before_widget' => '<div class="well widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h5>',
+    'after_title'   => '</h5>',
+  ) );
+
 }
 add_action( 'widgets_init', 'yellow17_widgets_init' );
 

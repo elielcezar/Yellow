@@ -54,6 +54,11 @@ Template Name: Homepage
             </div>
         </div>
 
+        <?php if ( is_active_sidebar( 'rodape_home' ) ) : ?>
+            <div class="rodape-home widget-area" role="complementary">
+                <?php dynamic_sidebar( 'rodape_home' ); ?>
+            </div><!-- #primary-sidebar -->
+        <?php endif; ?>
 
     </div>
     <!-- /.container -->

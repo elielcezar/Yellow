@@ -528,6 +528,29 @@ header{
 	  border: 3px solid $amarelo; 
 	}
 
+	/* newsletter */
+	.widget_newsletterwidgetminimal{
+		margin: 25px 15%;
+		background: transparent;
+		border: none;
+
+		.tnp-email{
+			border: 3px solid $preto;
+		    width: 80%;
+		    float: left;
+		    background: $amarelo;
+		    padding: 10px 10px 11px 10px;
+		}
+		.tnp-submit{
+			width: 20%;
+			border: 3px solid $preto;
+			text-transform: uppercase;
+			color: $amarelo;
+			background: $preto;
+		}
+	}
+	
+
 	footer{
 		.container{border-top: none !important;}
 	}
@@ -1241,6 +1264,12 @@ h3.title-timeline{
 			}
 		}
 	}
+	.fancybox-container{
+		p{
+			text-transform: none;
+			font-size: 18px;
+		}
+	}
 	footer{
 		text-align: center;
 		background: $amarelo;
@@ -1278,7 +1307,7 @@ footer{
 
 	.container{
 		padding: 20px 0;
-		border-top: 3px solid $preto;
+		border-top: 3px solid $preto !important;
 	}
 
 	.especial{display: none;}

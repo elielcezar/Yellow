@@ -46,13 +46,19 @@
 						                </a></div>
 			        					<div class="info box-double">
 			        						<p><?php the_field('descricao_curta'); ?></p>
-			        						<span class="saiba-mais"><a href="<?php the_permalink(); ?>">saiba mais</a></span>
+			        						<!--span class="saiba-mais"><a href="<?php the_permalink(); ?>">saiba mais</a></span-->
+			        						<span class="saiba-mais"><a data-fancybox data-src="#modal-<?php the_ID(); ?>" href="javascript:;">saiba mais</a></span>
 			        					</div>
 			        					 <?php if( get_field('inscricoes') ): ?>
 									          <div class="inscricoes">
 									            <a class="" href="<?php the_field('inscricoes'); ?>">Inscreva-se</a>
 									          </div>
 									      <?php endif; ?>
+
+									     <div id="modal-<?php the_ID(); ?>" class="info descricao-longa fancyboox" style="display: none; padding: 50px 5vw; max-width: 800px;text-align: center;">
+			        						<p><?php the_field('descricao_longa'); ?></p>			        						
+			        					</div>
+
 						            </div>
 						        <?php endwhile;			        
 						    endif;
