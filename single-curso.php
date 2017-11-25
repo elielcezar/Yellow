@@ -107,7 +107,7 @@ get_header(); ?>
 			    //$loop = new WP_Query( array( 'post_type' => 'curso', 'orderby' => 'rand', 'showposts' => 3 ) );
 			    if ( $loop->have_posts() ) :
 			        while ( $loop->have_posts() ) : $loop->the_post(); ?>
-			            <div class="col-sm-4">
+			            <div class="col-sm-3">
 			            	<h3><?php the_title(); ?></h3>        
 			                <div class="post-thumbnail"><a href="<?php the_permalink(); ?>" >				                	
 			                	<?php the_post_thumbnail('thumb-square', array('class' =>'img-responsive')); ?>

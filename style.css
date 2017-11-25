@@ -447,6 +447,8 @@ header {
     border-top: none !important; }
 
 /* --- SOBRE A YELLOW ------------------------------*/
+.page-template-page-yellow header {
+  background: #111 url(img/topo-yellow.jpg) center center no-repeat; }
 .page-template-page-yellow h3.title-timeline {
   margin: 50px 0 15px 0; }
 .page-template-page-yellow .timeline {
@@ -536,6 +538,12 @@ header {
       border: none; }
   .page-template-page-yellow .timeline .disabled {
     opacity: .5; }
+.page-template-page-yellow .carousel-control {
+  height: 70px;
+  padding: 0 !important;
+  margin-top: 200px; }
+  .page-template-page-yellow .carousel-control:hover {
+    background: transparent; }
 
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -598,6 +606,8 @@ header {
     font-family: 'Soho Thin'; }
 
 /* -- CURSOS - TODOS ----------------------------------------------------------------------*/
+.page-template-page-cursos header {
+  background: #111 url(img/topo-cursos.jpg) center center no-repeat; }
 .page-template-page-cursos #principal h3 {
   min-height: 52px; }
 
@@ -649,6 +659,30 @@ header {
       padding: 7px;
       margin: auto;
       text-align: center; }
+
+/* --- ESPECIALIZACAO EM VINIL ----------------------------------------------------------------*/
+.postid-122 header {
+  background: #111 url(img/topo-vinil.jpg) center center no-repeat; }
+
+/* --- ASSESSORIA DE CARREIRA ----------------------------------------------------------------*/
+.postid-121 header {
+  background: #111 url(img/topo-assessoria.jpg) center center no-repeat; }
+
+/* --- PERFORMANCE DJ ----------------------------------------------------------------*/
+.postid-99 header {
+  background: #111 url(img/topo-performance.jpg) center center no-repeat; }
+
+/* --- PRODUCAO ----------------------------------------------------------------*/
+.postid-98 header {
+  background: #111 url(img/topo-producao-musical.jpg) center center no-repeat; }
+
+/* --- EQUIPE ----------------------------------------------------------------*/
+.page-id-46 header {
+  background: #111 url(img/topo-equipe.jpg) center center no-repeat; }
+
+/* --- LOCAL ----------------------------------------------------------------*/
+.page-id-50 header {
+  background: #111 url(img/topo-local.jpg) center center no-repeat; }
 
 /* --- PAGINA INDIVIDUAL DE UMA INSCRICAO -------------------------------------------------------*/
 .single-inscricao #principal {

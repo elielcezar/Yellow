@@ -561,6 +561,10 @@ header{
 
 .page-template-page-yellow{
 
+header{
+	background: #111 url(img/topo-yellow.jpg) center center no-repeat
+}
+
 h3.title-timeline{
 	margin: 50px 0 15px 0;
 }
@@ -685,9 +689,16 @@ h3.title-timeline{
 	.disabled {
 	  opacity: .5;
 	}
-	
-
 }
+
+.carousel-control{
+	height: 70px;
+    padding: 0 !important;
+    margin-top: 200px;
+
+    &:hover{background: transparent;}
+}
+
 
 }
 
@@ -775,6 +786,9 @@ h3.title-timeline{
 
 /* -- CURSOS - TODOS ----------------------------------------------------------------------*/
 .page-template-page-cursos{
+	header{
+		background: #111 url(img/topo-cursos.jpg) center center no-repeat
+	}
 	#principal{
 		h3{
 			min-height: 52px;
@@ -855,6 +869,50 @@ h3.title-timeline{
 		}
 	}
 }
+
+/* --- ESPECIALIZACAO EM VINIL ----------------------------------------------------------------*/
+.postid-122{
+	header{
+		background: #111 url(img/topo-vinil.jpg) center center no-repeat
+	}
+}
+
+/* --- ASSESSORIA DE CARREIRA ----------------------------------------------------------------*/
+.postid-121{
+	header{
+		background: #111 url(img/topo-assessoria.jpg) center center no-repeat
+	}
+}
+
+/* --- PERFORMANCE DJ ----------------------------------------------------------------*/
+.postid-99{
+	header{
+		background: #111 url(img/topo-performance.jpg) center center no-repeat
+	}
+}
+
+/* --- PRODUCAO ----------------------------------------------------------------*/
+.postid-98{
+	header{
+		background: #111 url(img/topo-producao-musical.jpg) center center no-repeat
+	}
+}
+
+/* --- EQUIPE ----------------------------------------------------------------*/
+.page-id-46{
+	header{
+		background: #111 url(img/topo-equipe.jpg) center center no-repeat
+	}
+}
+
+/* --- LOCAL ----------------------------------------------------------------*/
+.page-id-50{
+	header{
+		background: #111 url(img/topo-local.jpg) center center no-repeat
+	}
+}
+
+
 
 
 /* --- PAGINA INDIVIDUAL DE UMA INSCRICAO -------------------------------------------------------*/

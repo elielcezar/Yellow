@@ -44,21 +44,15 @@
 
 <script>
 
-
-
 jQuery(document).ready(function(){   
 
     $('#nav-icon').click(function(){
-
 		$('#nav-icon, header .topo').toggleClass('open');
-
 	});
 
-   
+	$('.carousel .item:first-child').addClass('active');  
 
 });
-
-
 
 </script>
 
