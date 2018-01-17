@@ -75,16 +75,17 @@
         
 			<div class="row">
 				<div class="col-sm-4">
-					<h3>Salas e Equipamentos</h3>
-					<a data-fancybox data-src="#modal-salas-equipamentos" href="javascript:;"><img src="<?php echo get_template_directory_uri(); ?>/img/salas-equipamentos.jpg" class="img-responsive" /></a>
+					<h3>Sala de DJ</h3>					
+          <a data-fancybox data-src="#modal-salas-equipamentos" href="javascript:;"><img src="<?php echo get_template_directory_uri(); ?>/img/salas-equipamentos.jpg" class="img-responsive" /></a>
 					<div class="info box-double">
 						<p>Ambientes aconchegantes e todo o equipamento que você precisa para obter o máximo do seu potencial.</p>						
 					</div>
 				</div>
 
-        <div id="modal-salas-equipamentos" class="info descricao-longa fancyboox" style="display: none; padding: 0; max-width: 800px;text-align: center;">
-          
-           <div id="carousel-salas-equipamentos" class="carousel slide" data-ride="carousel">
+        <div id="modal-salas-equipamentos" class="info descricao-longa fancyboox" style="display: none; padding: 60px; max-width: 60%;">
+          <h3>Sala de DJ</h3>
+          <p>Ambientes aconchegantes e todo o equipamento que você precisa para obter o máximo do seu potencial.</p>            
+          <div id="carousel-salas-equipamentos" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
               <!-- galeria de salas e equipamentos -->
@@ -99,7 +100,7 @@
                           $title = $image['title']; //The title
                           $caption= $image['caption']; //The caption
                           $full_image_url= $image['full_image_url']; //Full size image url
-                          $full_image_url = acf_photo_gallery_resize_image($full_image_url, 700, 500); //Resized size to 262px width by 160px height image url
+                          $full_image_url = acf_photo_gallery_resize_image($full_image_url, 740, 510); //Resized size to 262px width by 160px height image url
                           $thumbnail_image_url= $image['thumbnail_image_url']; //Get the thumbnail size image url 150px by 150px
                           $url= $image['url']; //Goto any link when clicked
                           $target= $image['target']; //Open normal or new tab
@@ -131,14 +132,17 @@
 
 
 				<div class="col-sm-4">
-					<h3>Estúdios de Ensaio</h3>
-					<a data-fancybox data-src="#modal-estudios" href="javascript:;"><img src="<?php echo get_template_directory_uri(); ?>/img/estudios-ensaio.jpg" class="img-responsive" /></a>
+					<h3>Sala de Produção</h3>
+					
+          <a data-fancybox data-src="#modal-estudios" href="javascript:;"><img src="<?php echo get_template_directory_uri(); ?>/img/estudios-ensaio.jpg" class="img-responsive" /></a>
 					<div class="info box-double">
 						<p>Salas para você colocar em prática aquilo que aprendeu nas aulas e melhorar suas habilidades.</p>						
 					</div>
 				</div>
 
-        <div id="modal-estudios" class="info descricao-longa fancyboox" style="display: none; padding: 0; max-width: 800px;text-align: center;">
+        <div id="modal-estudios" class="info descricao-longa fancyboox" style="display: none; padding: 60px; max-width: 60%;">
+          <h3>Sala de Produção</h3>
+          <p>Salas para você colocar em prática aquilo que aprendeu nas aulas e melhorar suas habilidades.</p>
           
            <div id="carousel-estudios" class="carousel slide" data-ride="carousel">
                 <!-- Wrapper for slides -->
@@ -188,22 +192,22 @@
 
 				<div class="col-sm-4">
 					<h3>Equipe</h3>
-					<a href="<?php echo get_site_url(); ?>/equipe"><img src="<?php echo get_template_directory_uri(); ?>/img/equipe2.jpg" class="img-responsive" /></a>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/equipe2.jpg" class="img-responsive" />
 					<div class="info box-double">
 						<p>O coração da Yellow é um grupo de profissionais notáveis, apaixonados e atuantes no mercado.</p>
-						<span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/equipe">saiba mais</a></span>
+						<!--span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/equipe">saiba mais</a></span-->
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-sm-4">
+				<!--div class="col-sm-4">
 					<h3>Café Yellow</h3>
 					<img src="<?php echo get_template_directory_uri(); ?>/img/cafe.jpg" class="img-responsive" />
 					<div class="info box-double">
 						<p>Um lugar para você relaxar entre as aulas, fazer amigos e compartilhar experiências.</p>						
 					</div>
-				</div>
+				</div-->
 				<div class="col-sm-4">
 					<h3>Localização</h3>
 					<a href="<?php echo get_site_url(); ?>/localizacao"><img src="<?php echo get_template_directory_uri(); ?>/img/localizacao.jpg" class="img-responsive" /></a>
@@ -216,7 +220,7 @@
 					<div class="info box-double">
 						<p>Acreditamos no poder transformador da música.</p>
 						<p>Estamos em constante movimento para trazer o melhor ensino para você.</p>
-						<p>Conte com a experiência de quem já está no mercado há 13 ANOS</p>
+						<p>Conte com a experiência de quem já está a muito tempo no mercado.</p>
 						<img src="<?php echo get_template_directory_uri(); ?>/img/13anos.jpg" class="img-responsive" />
 					</div>					
 				</div>

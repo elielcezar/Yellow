@@ -36,29 +36,23 @@ Template Name: Homepage
                     </div>
                     <div class="col-sm-4">
                         <h3>Eventos</h3>
-                        <a href="<?php echo get_site_url(); ?>/peneiras"><img src="<?php echo get_template_directory_uri(); ?>/img/peneiras.jpg" class="img-responsive" /></a>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/peneiras.jpg" class="img-responsive" />
                         <div class="info box-double">
                             <p>Os DJs formados pela Yellow têm acesso exclusivo às Peneiras, promovidas em conjunto com vários núcleos e casas noturnas parceiras.</p>
-                            <span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/peneiras">saiba mais</a></span>
+                            <!--span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/peneiras">saiba mais</a></span-->
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <h3>Equipe</h3>
-                        <a href="<?php echo get_site_url(); ?>/equipe"><img src="<?php echo get_template_directory_uri(); ?>/img/equipe.jpg" class="img-responsive" /></a>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/equipe.jpg" class="img-responsive" />
                         <div class="info box-double">
                             <p>Conheça as pessoas que fazem a Yellow ser referência.</p>
-                            <span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/equipe">saiba mais</a></span>
+                            <!--span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/equipe">saiba mais</a></span-->
                         </div>
                     </div>  
                 </div>
             </div>
         </div>
-
-        <?php if ( is_active_sidebar( 'rodape_home' ) ) : ?>
-            <div class="rodape-home widget-area" role="complementary">
-                <?php dynamic_sidebar( 'rodape_home' ); ?>
-            </div><!-- #primary-sidebar -->
-        <?php endif; ?>
 
     </div>
     <!-- /.container -->

@@ -75,7 +75,7 @@
   <div class="social-media">
     <a class="youtube" href="http://www.youtube.com/yellowartbr" target="_blank">Youtube</a>      
     <a class="fb" href="https://www.facebook.com/yellow.art.br">Facebook</a>
-    <a class="insta" href="#">Instagram</a>
+    <a class="insta" href="https://www.instagram.com/yellow.art.br/">Instagram</a>
   </div>
 
   <div class="topo">

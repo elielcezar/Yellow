@@ -11,6 +11,15 @@
 ?>
 
 
+        <?php if ( is_active_sidebar( 'rodape_home' ) ) : ?>
+            <div class="rodape-home widget-area" role="complementary">
+            	<div class="container">
+	                <?php dynamic_sidebar( 'rodape_home' ); ?>
+	            </div>
+            </div><!-- #primary-sidebar -->
+        <?php endif; ?>
+
+
 <footer>
 
 	<div class="container">
@@ -51,6 +60,9 @@ jQuery(document).ready(function(){
 	});
 
 	$('.carousel .item:first-child').addClass('active');  
+
+	$('.page-id-16 .wpforms-field-container div:lt(3)').wrapAll('<div class="coluna-1"></div>');
+	$('.page-id-16 #principal ul.socialmedia').insertAfter('.coluna-1');
 
 });
 
