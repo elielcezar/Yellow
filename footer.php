@@ -24,12 +24,26 @@
 
 	<div class="container">
 
-		<img src="<?php echo get_template_directory_uri(); ?>/img/assinatura-rodape.jpg" />
+		<div class="row">
+			<div class="col-sm-4">
+				<p>Tel: (41)3363-0113</p>
+				<p>Whats: (41)99848-4807</p>
+			</div>
+			<div class="col-sm-4">
+				<p>R. Desembargador Motta, 2041</p>
+				<p>Batel | Curitiba - PR</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/assinatura-rodape2.jpg" />				
+			</div>
+		</div>
+
+		<!--img src="<?php echo get_template_directory_uri(); ?>/img/assinatura-rodape.jpg" />
 
 		<div class="especial">
 			<p>41 3363 0113 | contato@yellow.art.br | R. Desembargador Motta, 2041</p>
 			<small>Yellow 2017 - Todos os Direitos Reservados</small>
-		</div>
+		</div-->
 
 	</div>
 

@@ -26,7 +26,7 @@
     <![endif]-->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.css" />
-    
+
 
 
 
@@ -45,8 +45,8 @@
     <span></span>
     <span></span>
   </div>
- 
-  <h2 class="main flex main-title"><a href="<?php echo get_site_url(); ?>">yellow</a></h2> 
+
+  <h2 class="main flex main-title"><a href="<?php echo get_site_url(); ?>">yellow</a></h2>
 
 
   <?php if(is_page()){ ?>
@@ -71,19 +71,28 @@
 
   <?php }  ?>
 
-  
+  <?php if(is_singular('post')){ ?>
+
+      <div class="chamada">
+          <h1>Blog Yellow</h1>
+          <p>Dicas e textos sobre o mundo da música eletrônica, escritos por quem manja do assunto.</p>
+      </div>
+
+  <?php }  ?>
+
+
   <div class="social-media">
-    <a class="youtube" href="http://www.youtube.com/yellowartbr" target="_blank">Youtube</a>      
+    <a class="youtube" href="http://www.youtube.com/yellowartbr" target="_blank">Youtube</a>
     <a class="fb" href="https://www.facebook.com/yellow.art.br">Facebook</a>
     <a class="insta" href="https://www.instagram.com/yellow.art.br/">Instagram</a>
   </div>
 
   <div class="topo">
-        <?php if ( is_active_sidebar( 'topo' ) ) : ?>                    
-                <?php dynamic_sidebar( 'topo' ); ?>                    
+        <?php if ( is_active_sidebar( 'topo' ) ) : ?>
+                <?php dynamic_sidebar( 'topo' ); ?>
         <?php endif; ?>
   </div>
 
-  
+
 
 </header>

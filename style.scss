@@ -1,15 +1,14 @@
-	/*
+/*
 Theme Name:     yellow17
 Theme URI:      http://www.yellow.art.br/
 Description:    Yellow DJ Academy
-Author:         Eliel Cezar                        
+Author:         Eliel Cezar
 Version:        1.0
 */
 
 $amarelo: #f7e652;
 $preto: #111;
-	
-//#wpadminbar{display: none;}
+
 
 html, body{height: 100%;}
 
@@ -103,6 +102,13 @@ ul{
 	display: flex;
 }
 
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
 /* listagemn de noticias: Home, Categorias, etc */
 /*.noticias .row{
 	margin-bottom: 25px;
@@ -136,12 +142,12 @@ ul{
 	}
 
 	.fb_iframe_widget{
-			
+
 			position: absolute;
 			bottom: 5px;
 			left: 250px;
 		}
-	
+
 }
 */
 
@@ -183,7 +189,7 @@ ul{
 .box-double{
   width: 97%;
   position: relative;
-  border: 3px solid $preto;  
+  border: 3px solid $preto;
   margin: 35px 0 35px 10px;
   padding: 30px 30px 15px 15px;
   z-index: 1;
@@ -196,39 +202,39 @@ ul{
   right: 10px;
   bottom: -15px;
   z-index: -1;
-  border: 3px solid $preto; 
+  border: 3px solid $preto;
 }
 
-h2.box-triple{
+.box-triple{
 	margin-bottom: 40px;
 	width: auto;
 	display: inline-block;
 	position: relative;
-	border: 3px solid $preto;  
+	border: 3px solid $preto;
 	margin: 35px 0 35px 0;
 	padding: 20px 20px;
 	background: #fff;
 }
-h2.box-triple:before{
+.box-triple:before{
   content: '';
   position: absolute;
   top: -12px;
   left: 12px;
   right: -12px;
   bottom: 12px;
-  border: 3px solid $preto; 
+  border: 3px solid $preto;
   background: #fff;
   z-index: -1 !important;
 
 }
-h2.box-triple:after{
+.box-triple:after{
   content: '';
   position: absolute;
   top: -20px;
   left: 20px;
   right: -20px;
   bottom: 20px;
-  border: 3px solid $preto; 
+  border: 3px solid $preto;
   background: #fff;
   z-index: -2 !important;
 }
@@ -238,7 +244,7 @@ h2.box-triple:after{
 
 header{
 	background: $preto url(img/bg-home.jpg) center center no-repeat;
-	height: 75%;	
+	height: 75%;
 	background-size: cover;
 	align-items: center;
 	position: relative;
@@ -265,7 +271,7 @@ header{
 			height: 30px;
 			position: absolute;
 			top: 50px;
-			right: 25px;			
+			right: 25px;
 			-webkit-transform: rotate(0deg);
 			-moz-transform: rotate(0deg);
 			-o-transform: rotate(0deg);
@@ -341,20 +347,20 @@ header{
 		min-width: 220px;
 
 		@media(max-width:767px){
-			display: none;			
+			display: none;
 		}
 
 		#menu-principal{
 			padding-left: 0;
 			li{
-				font-size: 18px;				
+				font-size: 18px;
 				padding-right: 25px;
 				background: transparent url(img/plus.png) left 6px no-repeat;
 			    padding-left: 25px;
-			    text-align: left;							
+			    text-align: left;
 			}
 		}
-		&.open{		
+		&.open{
 			top: 90px;
 			right: 5%;
 			left: auto !important;
@@ -383,8 +389,8 @@ header{
 
 		@media(max-width:767px){
 			width: 100%;
-			text-align: left;			
-			position: relative;			
+			text-align: left;
+			position: relative;
 			right: auto;
 			padding: 80px 5% 5% 5%;
 		}
@@ -394,7 +400,7 @@ header{
 			width: auto;
 			display: inline-block;
 			position: relative;
-			border: 3px solid $amarelo;  
+			border: 3px solid $amarelo;
 			margin: 35px 0 35px 10px;
 			padding: 30px 30px 15px 15px;
 			z-index: 1;
@@ -407,7 +413,7 @@ header{
 		  right: 10px;
 		  bottom: -15px;
 		  z-index: -1;
-		  border: 3px solid $amarelo; 
+		  border: 3px solid $amarelo;
 		}
 
 		p{font-size: 16px;}
@@ -500,7 +506,7 @@ header{
 		text-indent: -5000em;
 		display: block;
 		margin: 65px 0 20px 0;
-		background: transparent url(img/about.png) top center no-repeat;	
+		background: transparent url(img/about.png) top center no-repeat;
 	}
 	.intro{
 		max-width: 475px;
@@ -521,13 +527,13 @@ header{
 		padding: 40px;
 	}
 
-	.box-double{	 
+	.box-double{
 	  border: 3px solid $amarelo;
 	}
-	.box-double:after{	  
-	  border: 3px solid $amarelo; 
+	.box-double:after{
+	  border: 3px solid $amarelo;
 	}
-	
+
 
 	footer{
 		.container{border-top: none !important;}
@@ -567,7 +573,7 @@ h3.title-timeline{
 		.carousel-control{
 			height: 70px;
 		    padding: 0 !important;
-		    margin-top: 200px;
+		    margin-top: 280px;
 
 		    &:hover{background: transparent;}
 		}
@@ -576,9 +582,16 @@ h3.title-timeline{
 		.right.carousel-control{
 			width: 35px;
 			height: 37px;
-			border: 1px solid red;
 			text-indent: -5000em;
+		}
+
+		.left.carousel-control{
+			margin-left: 15px;
 			background: transparent url(img/carousel-left.png) center center no-repeat;
+		}
+		.right.carousel-control{
+			margin-right: 15px;
+			background: transparent url(img/carousel-right.png) center center no-repeat;
 		}
 
 		img{
@@ -632,7 +645,7 @@ h3.title-timeline{
 		  //border-radius: 50%;
 		  background: $preto;
 		}
-	}	
+	}
 
 	li div {
 	  position: absolute;
@@ -641,8 +654,8 @@ h3.title-timeline{
 	  padding: 15px;
 	  font-size: 1rem;
 	  white-space: normal;
-	  color: black;	 
-	  border-left: 2px solid $preto; 
+	  color: black;
+	  border-left: 2px solid $preto;
 	}
 
 	/*li div::before {
@@ -718,42 +731,42 @@ h3.title-timeline{
 @media screen and (max-width: 599px) {
   .timeline ol,
   .timeline ol li {
-    width: auto; 
+    width: auto;
   }
-  
+
   .timeline ol {
     padding: 0;
     transform: none !important;
   }
-  
+
   .timeline ol li {
     display: block;
     height: auto;
     background: transparent;
   }
-  
+
   .timeline ol li:first-child {
     margin-top: 25px;
   }
-  
+
   .timeline ol li:not(:first-child) {
     margin-left: auto;
   }
-  
+
   .timeline ol li div {
     width: 94%;
     height: auto !important;
     margin: 0 auto 25px;
   }
-  
+
   .timeline ol li div {
     position: static;
   }
-  
+
   .timeline ol li:nth-child(odd) div {
     transform: none;
   }
-  
+
   .timeline ol li:nth-child(odd) div::before,
   .timeline ol li:nth-child(even) div::before {
     left: 50%;
@@ -763,7 +776,7 @@ h3.title-timeline{
     border-left: 1px solid white;
     height: 25px;
   }
-  
+
   .timeline ol li:last-child,
   .timeline ol li:nth-last-child(2) div::before,
   .timeline ol li:not(:last-child)::after,
@@ -785,7 +798,7 @@ h3.title-timeline{
 			margin-bottom: 10px;
 		}
 		h3{
-			margin-bottom: 0;			
+			margin-bottom: 0;
 		}
 		p{
 			text-transform: uppercase;
@@ -822,11 +835,11 @@ h3.title-timeline{
 				display: inline-block;
 				font-size: 28px;
 				color: $amarelo;
-				background: $preto;			
+				background: $preto;
 				padding: 0 7px;
 				margin: auto;
 				text-align: center;
-			}	
+			}
 		}
 	}
 }
@@ -834,7 +847,7 @@ h3.title-timeline{
 /* --- PAGINA INVIDUAL DE UM CURSO --------------------------------------------------------*/
 .single-curso{
 	header{
-		
+
 		.inscricoes a{
 			display: inline-block;
 			font-size: 36px;
@@ -844,7 +857,7 @@ h3.title-timeline{
 			left: 40px;
 			bottom: 100px;
 			padding: 10px 25px;
-			border: 3px solid $preto; 
+			border: 3px solid $preto;
 
 			@media(max-width:767px){
 				position: relative;
@@ -867,7 +880,7 @@ h3.title-timeline{
 	.mais-cursos{
 		h3{
 			min-height: 60px;
-		}	
+		}
 	}
 }
 
@@ -879,7 +892,7 @@ h3.title-timeline{
 		background: $preto url(img/bg-ead.jpg) top center no-repeat;
 		background-size: cover;
 	}
-	
+
 	h3{
 		min-height: 52px;
 	}
@@ -904,11 +917,11 @@ h3.title-timeline{
 			display: inline-block;
 			font-size: 28px;
 			color: $amarelo;
-			background: $preto;			
+			background: $preto;
 			padding: 7px;
 			margin: auto;
 			text-align: center;
-		}	
+		}
 	}
 }
 
@@ -959,10 +972,10 @@ h3.title-timeline{
 
 /* --- PAGINA INDIVIDUAL DE UMA INSCRICAO -------------------------------------------------------*/
 .single-inscricao{
-	
+
 	#principal{
 		background: $amarelo;
-		
+
 		@media(max-width:767px){
 			padding-top: 30px 0 0 0;
 		}
@@ -970,10 +983,10 @@ h3.title-timeline{
 		.wpforms-container{
 			width: 97%;
 			position: relative;
-			border: 3px solid $preto;  
+			border: 3px solid $preto;
 			padding: 60px 30px 40px 0;
 			margin: 0 0 60px 20px;
-			z-index: 1;	
+			z-index: 1;
 			background: #dbdddd;
 
 			@media(max-width:767px){
@@ -998,13 +1011,13 @@ h3.title-timeline{
 					&::-moz-placeholder{color: $preto; text-transform: uppercase;}
 					&::-ms-input-placeholder{color: $preto; text-transform: uppercase;}
 			}
-			select, option{text-transform: uppercase;}			
+			select, option{text-transform: uppercase;}
 			button{
 				margin-bottom: 40px;
 				width: auto;
 				display: inline-block;
 				position: relative;
-				border: 2px solid $preto;  
+				border: 2px solid $preto;
 				margin: 10px 65px 0 0;
 				padding: 5px 20px;
 				background: #fff;
@@ -1024,7 +1037,7 @@ h3.title-timeline{
 			  left: 6px;
 			  right: -6px;
 			  bottom: 6px;
-			  border: 2px solid $preto; 
+			  border: 2px solid $preto;
 			  background: #fff;
 			  z-index: -1 !important;
 			}
@@ -1035,12 +1048,12 @@ h3.title-timeline{
 			  left: 10px;
 			  right: -10px;
 			  bottom: 10px;
-			  border: 2px solid $preto; 
+			  border: 2px solid $preto;
 			  background: #fff;
 			  z-index: -2 !important;
 			}
 		}
-		.wpforms-container:after{			
+		.wpforms-container:after{
 			content: '';
 			position: absolute;
 			top: 40px;
@@ -1048,21 +1061,21 @@ h3.title-timeline{
 			right: 40px;
 			bottom: -40px;
 			z-index: -5;
-			border: 3px solid $preto; 
+			border: 3px solid $preto;
 			background: #fff;
 
 			@media(max-width:767px){
 				display: none;
-			}		
+			}
 		}
 
 		.info{
 			width: 97%;
 			position: relative;
-			border: 3px solid $preto;  
+			border: 3px solid $preto;
 			padding: 60px 60px 40px 20px;
 			margin: 80px 0 60px 40px;
-			z-index: 1;	
+			z-index: 1;
 			background: #fff;
 
 			@media(max-width:767px){
@@ -1077,7 +1090,7 @@ h3.title-timeline{
 			}
 
 		}
-		.info:after{			
+		.info:after{
 			content: '';
 			position: absolute;
 			top: 20px;
@@ -1085,8 +1098,8 @@ h3.title-timeline{
 			right: 20px;
 			bottom: -20px;
 			z-index: -5;
-			border: 3px solid $preto; 
-			background: #fff;		
+			border: 3px solid $preto;
+			background: #fff;
 		}
 	}
 }
@@ -1096,7 +1109,7 @@ h3.title-timeline{
 	header{
 		background: transparent;
 		height: auto;
-		min-height: auto;	
+		min-height: auto;
 		height: 80px;
 
 		.container{
@@ -1116,7 +1129,7 @@ h3.title-timeline{
 					li{
 						float: left;
 						a{color: $preto;}
-					}		
+					}
 				}
 			}
 		}
@@ -1152,7 +1165,7 @@ h3.title-timeline{
 			p{
 				font-size: 14px;
 				font-family: 'Soho Regular';
-				text-transform: none;				
+				text-transform: none;
 			}
 		}
 	}
@@ -1187,7 +1200,7 @@ h3.title-timeline{
 	header{
 		background: $preto url(img/topo-local.jpg) top center no-repeat;
 	}
-	
+
 	.wrapper{
 		//background: $amarelo;
 		#principal{
@@ -1215,10 +1228,10 @@ h3.title-timeline{
 		.wpforms-container{
 			width: 98%;
 			position: relative;
-			border: 3px solid $preto;  
+			border: 3px solid $preto;
 			padding: 60px 30px 40px 0;
 			margin: 10px 0 60px 20px;
-			z-index: 1;	
+			z-index: 1;
 			float: left;
 			background: $amarelo;
 
@@ -1240,7 +1253,7 @@ h3.title-timeline{
 				}
 			}
 
-			.socialmedia{				
+			.socialmedia{
 			    display: block;
 			    float: right;
 			    width: 45%;
@@ -1256,7 +1269,7 @@ h3.title-timeline{
 				    	width: 45px;
 				    	height: 45px;
 				    	float: right;
-				    	text-indent: -5000em;			    	
+				    	text-indent: -5000em;
 				    	background: #fff;
 				    }
 				    a.fb{background: #fff url(img/ico-fb-white.png) center center no-repeat;}
@@ -1281,7 +1294,7 @@ h3.title-timeline{
 			.wpforms-field-textarea{
 				float: right;
 				width: 49%;
-				clear: none;				
+				clear: none;
 
 				textarea{
 					height: 140px;
@@ -1325,7 +1338,7 @@ h3.title-timeline{
 					width: auto;
 					display: inline-block;
 					position: relative;
-					border: 2px solid $preto;  
+					border: 2px solid $preto;
 					margin: 10px 65px 0 0;
 					padding: 5px 20px;
 					background: #fff;
@@ -1346,7 +1359,7 @@ h3.title-timeline{
 				  left: 6px;
 				  right: -6px;
 				  bottom: 6px;
-				  border: 2px solid $preto; 
+				  border: 2px solid $preto;
 				  background: #fff;
 				  z-index: -1 !important;
 				}
@@ -1357,13 +1370,13 @@ h3.title-timeline{
 				  left: 10px;
 				  right: -10px;
 				  bottom: 10px;
-				  border: 2px solid $preto; 
+				  border: 2px solid $preto;
 				  background: #fff;
 				  z-index: -2 !important;
 				}
-			}		
+			}
 		}
-		.wpforms-container:after{			
+		.wpforms-container:after{
 			content: '';
 			position: absolute;
 			top: 20px;
@@ -1371,12 +1384,12 @@ h3.title-timeline{
 			right: 20px;
 			bottom: -20px;
 			z-index: -5;
-			border: 3px solid $preto; 
+			border: 3px solid $preto;
 			background: $amarelo;
 
 			@media(max-width:767px){
 				display: none;
-			}	
+			}
 		}
 	}
 
@@ -1495,6 +1508,69 @@ h3.title-timeline{
 	}
 }
 
+/* --- BLOG ----------------------------------------------------------------*/
+
+.page-template-page-blog{
+	.conteudo{
+		h2{
+			color: $amarelo;
+			font-size: 42px;
+		    font-weight: 700;
+		    float: left;
+		    width: 100%;
+		    margin: 50px 0;
+		}
+		.col-sm-4{
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		.box-double{
+			min-height: 175px;
+		}
+	}
+}
+
+
+/* --- BLOG - individuais ----------------------------------------------------------------*/
+
+.single-post{
+	.conteudo{
+		.box-blog{
+			margin: 80px 0 0 40px;
+			border: 3px solid #000;
+			padding: 120px 60px 60px 60px;
+			position: relative;
+			z-index: 0;
+			float: left;
+
+			h1{
+				background: #fff;
+				position: absolute;
+			    top: -55px;
+			    left: -20px;
+
+			    &:before{background: #fff !important;}
+				&:after{background: #fff !important;}
+			}
+
+			p, ul, ol{
+				strong{
+					font-family: 'Soho Bold';
+				}
+			}
+
+			.mais-posts{
+				float: left;
+				margin-top: 100px;
+
+				h2{
+					text-transform: none;
+				}
+			}
+		}
+	}
+}
+
 /* --- RODAPE ----------------------------------------------------------------*/
 
 /* newsletter */
@@ -1561,13 +1637,27 @@ h3.title-timeline{
 
 footer{
 	margin: 0;
+	background: #000;
+	color: $amarelo;
+	padding: 10px 0;
+
+	p{font-size: 18px;}
 
 	.container{
 		padding: 20px 0;
 		border-top: 3px solid $preto !important;
 	}
+	.col-sm-4{
+		border-right: 1px solid $amarelo;
+		padding-left: 65px;
+	}
+	.col-sm-4:nth-child(3){
+		border-right: none;
+	}
+
+	img{
+		margin-top: 15px;
+	}
 
 	.especial{display: none;}
 }
-
-

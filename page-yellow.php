@@ -192,7 +192,7 @@
 
 				<div class="col-sm-4">
 					<h3>Equipe</h3>
-					<img src="<?php echo get_template_directory_uri(); ?>/img/equipe2.jpg" class="img-responsive" />
+					<img src="<?php echo get_template_directory_uri(); ?>/img/equipe.jpg" class="img-responsive" />
 					<div class="info box-double">
 						<p>O coração da Yellow é um grupo de profissionais notáveis, apaixonados e atuantes no mercado.</p>
 						<!--span class="saiba-mais"><a href="<?php echo get_site_url(); ?>/equipe">saiba mais</a></span-->

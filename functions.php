@@ -88,5 +88,7 @@ add_theme_support( 'post-thumbnails' );
 //add_image_size( 'thumb-destaque', 615, 300, true ); 
 add_image_size('thumb-square', 450, 450, true); 
 
+add_image_size('thumb-blog', 150, 150, true); 
+
 
 ?>
